@@ -6,6 +6,7 @@
 #boolean data type eg bool
 #set data type eg set
 #sequence data type eg list, tuple, range
+
 # a string is a sequence or sery of a collection of characters
 # a string is enclosed in either single or double quotes
 #the process of creating a avariable is the  same as declaring a variable
