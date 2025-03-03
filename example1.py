@@ -16,6 +16,8 @@ print(num2 - num1)
 # a python file is called a script
 # a group of statements is called code
 # a group of related code is called a block
+# anamed block of code is called a function
+# a function is a named block of code that exxcecutes a particular task
 # a block of code in a python script is called a program
 # the running of a program is called execution
 

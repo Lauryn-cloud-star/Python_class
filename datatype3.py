@@ -7,5 +7,3 @@ print(student_detail.values())
 
 #set datatype
 #dictionaries,lists, sets are mutable
-student_id = {233, 24, 344, 3434, 242, 2434, 44}
-print(student_id)

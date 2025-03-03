@@ -1,6 +1,10 @@
 #sequence
-#in python where you find a variable that has more that one value enclosed in brackets is called a list(a collection of values in one single variable)
+#in python where you find a variable that
+#  has more that one value enclosed in brackets is called 
+# a list(a collection of values in one single variable)
 #a bol
+
+#the sequence below
 num1, num2, num3 = 100, 200, 300
 numbers = [100, 200, 300]
 numders1 = [num1, num2, num3]
@@ -18,5 +22,14 @@ print(trouble)
 
 #tuple
 #tuple is a read only sequence(its content is put inside carl brackets also knlown as paranthesis)
-mytuple = (100, 200, 300)
-print(type(mytuple))
+#mytuple = (100, 200, 300)
+#print(type(mytuple))
+colors = ["books", "green", "blue", "purple"]
+print(colors)
+colors.append('cream')
+print(colors)
+colors.remove("books")
+print(colors)
+#  
+product = ('Microsoft', 'Xbox', 499.99)
+print(type(product))
