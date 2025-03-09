@@ -6,6 +6,7 @@ def add():
 print(add())
 
 #dynamic functions
+# here the parameter list is 2
 def add1(num1, num2):
     return num1 + num2
 print(add1(20, 50))

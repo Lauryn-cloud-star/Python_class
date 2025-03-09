@@ -18,6 +18,6 @@ display_product("Laptop", 999.999)
 #students()
 # a value students and capture are local variables
 # local variable are variables limited within a aparticular function and can not be accessed outside a function                                                                                                                                                                                                                                                                                                                                                                                                                                        
-print(students)
+#print(students)
 
     

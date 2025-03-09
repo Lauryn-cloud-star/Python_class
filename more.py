@@ -18,3 +18,5 @@ def student_details():
     print(f"final_marks is {final_mark}")
     print(f"total is {total}")
 student_details()
+
+

@@ -20,3 +20,41 @@ def capture():
         print(f"{key}: {value}")
 
 capture()
+
+
+def students_perfomance():
+    students_list =[]
+    num = int(input("Enter Number of student entrie: "))
+
+    for _ in range(num):
+     students = {}
+    students["name"] = input("please enter student name: ")
+    students["Age"] = int(input("please enter student age: "))
+    students["gender"] = input("please enter student gender(male or female): ")
+    students["program"] = input("please enter student's program: ")
+    students["year_of_study"] = int(input("please enter student's year of study: "))
+    students["test1"] = int(input("please enter marks scored in test1: "))
+    students["test2"] = int(input("please enter marks scored in test2: "))
+    students["course_work"] = int(input("please enter marks scored in course_work: "))
+    students["exam"] = int(input("please enter marks scored in exam: "))
+    students["best_done"] = best_done(students["test2"],students["course_work"])
+    students["final_exam"] = final_exam (students["best_done"], students["exam"])
+
+    students_list.append(students)
+    return students_list
+
+
+
+
+def best_done(test2, course_work):
+    return ((test2 + course_work)/2) * 0.4
+
+
+def final_exam(best_done, exam):
+    return best_done + (exam * 0.6)
+
+
+all_students = students_perfomance()
+
+for student in all_students:
+     print(student)
